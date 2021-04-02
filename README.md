@@ -1,4 +1,4 @@
-# Eva-LedsAnimations
+# Eva-Led Animations
  Implementation of the Eva social robot leds animations.
 
  ## Installation
