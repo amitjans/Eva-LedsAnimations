@@ -1,15 +1,19 @@
 # Eva-LedsAnimations
- Implementation of the Eva leds animations.
+ Implementation of the Eva social robot leds animations.
 
- ## Intalación
-Paquetes requeridos para desarrollar y compilar las animaciones del arreglo de luces led.
+ ## Installation
+Packages required to develop and compile the animations of the led light arrangement.
+
 ```bash
 sudo apt-get install matrixio-creator-init libmatrixio-creator-hal libmatrixio-creator-hal-dev
 ```
 
 ## Compilación
-
-Para compilar las animaciones del arreglo de leds de la Matrix Voice debemos ejecutar el siguiente comando, donde deberemos cambiar <app> por el nombre del archivos que queremos obtener como resultado del proceso de compilación y el <app.cpp> por el nombre del archivo que contenga la implementacion de la animación que deseamos compilar.
+To compile the animations for the Matrix Voice's leds array we need to execute the following command, where we must change <app> to the name of the files that we want to obtain as a result of the compilation process and <app.cpp> to the name of the file that contains the implementation of the animation that we want to compile.
+ 
 ```bash
 g++ -o app app.cpp -std=c++11 -lmatrix_creator_hal
 ```
+
+## Usage
+For Eva main app uses the compiled animations, these need to be found on leds's folder.
